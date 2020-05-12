@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jessica Maria</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        function mayor() {
+            var mayor = arguments[0];
+            var j;
+            for (j = 1; j < arguments.length; j++) {
+                if (arguments[j] > mayor) {
+                    mayor = arguments[j];
+                }
+            }
+            return mayor;
+        }
+
+        document.write(mayor(8, 45, 25, 96, 75));
+    </script>
+
+</body>
+
+</html>
